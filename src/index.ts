@@ -1,1 +1,1 @@
-export { techdocsAddonHideNavTocPlugin, TechdocsAddonHideNavTocPage } from './plugin';
+export { techdocsAddonHideNavTocPlugin, HideNavToc } from './plugin';
