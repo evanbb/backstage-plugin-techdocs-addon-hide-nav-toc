@@ -1,9 +1,6 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  optimizeDeps: {
-    force: true,
-  },
   build: {
     rollupOptions: {
       external: (mid) =>
