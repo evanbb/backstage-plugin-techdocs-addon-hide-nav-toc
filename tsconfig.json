@@ -1,6 +1,7 @@
 {
   "extends": "@backstage/cli/config/tsconfig.json",
   "compilerOptions": {
-    "declarationDir": "dist"
+    "declarationDir": "dist",
+    "lib": ["esnext", "dom"]
   }
 }
