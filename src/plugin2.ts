@@ -4,20 +4,11 @@ import {
   TechDocsAddonLocations,
   useShadowRootElements,
 } from '@backstage/plugin-techdocs-react';
-import { HideNavToc as HideNavTocComponent } from './components/HideNavToc';
 import { useEffect } from 'react';
 
 export const techdocsAddonHideNavTocPlugin = createPlugin({
   id: 'techdocs-addon-hide-nav-toc',
 });
-
-export const HideNavToc = techdocsAddonHideNavTocPlugin.provide(
-  createTechDocsAddonExtension({
-    name: 'techdocs-addon-hide-nav-toc',
-    component: HideNavTocComponent,
-    location: TechDocsAddonLocations.Content,
-  }),
-);
 
 export const MakeAllImagesCatGifs = techdocsAddonHideNavTocPlugin.provide(
   createTechDocsAddonExtension({

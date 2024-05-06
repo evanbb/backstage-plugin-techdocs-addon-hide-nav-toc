@@ -50,9 +50,6 @@ const useStyles = makeStyles<Theme, StyleProps>({
       maxWidth,
       marginLeft,
     };
-
-    // return { '@media screen and (min-width: 76.1875em)': rules,
-    // };
   },
   footer: ({ theme, navHidden, tocHidden }) => {
     return navHidden || tocHidden
